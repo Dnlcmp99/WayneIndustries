@@ -1,0 +1,110 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 24%, rgba(133,132,132,1) 66%, rgba(0,0,0,1) 90%);
+    height: 100vh;
+    
+}
+
+.imgtopo{
+    position: absolute;
+    display: block;
+    padding-left: 10px;
+    padding-top: 8px;
+}
+
+nav{
+
+    background-color: black;
+    text-align: right;
+    padding-right: 15px;
+    
+
+}
+
+nav li{
+    display: inline-block;
+    
+}
+
+nav li a{
+    color: azure;
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+    
+}
+
+nav li a:hover{
+    background-color: grey;
+}
+
+.dropdown-menu{
+    position: absolute;
+    box-shadow: 0 0 2px black;
+    display: none;
+}
+
+.dropdown-menu a{
+    display: block;
+    color: black;
+    
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+footer{
+    background-color: black;
+    color: dimgrey;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    width: 100%;
+    height: 80px;
+}
+
+.painelcontrole{
+    font-size: 30px;
+    width: 250px;
+    height: 100px;
+    display: flex;
+    text-align: center;
+    background-color: whitesmoke;
+    margin: auto;
+    margin-top: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 0 0 10px rgb(83, 83, 83);
+    padding-top: 5px;
+    border-radius: 10px;
+    
+
+}
+
+.content{
+
+    font-size: 20px;
+    width: 85vw;
+    height: 350px;
+    display: flex;
+    text-align: center;
+    background-color: rgba(245, 245, 245, 0.425);
+    margin: auto;
+    margin-top: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 0 0 10px rgb(83, 83, 83);
+    padding-top: 55px;
+    border-radius: 10px;
+    padding-left: 27%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

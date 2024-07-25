@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/seguranca.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="/images/favicon-16x16.png" type="image/x-icon">
+    <title>Segurança - Wayne Industries</title>
+</head>
+<body>
+    <nav>
+
+      <img src="/images/favicon-32x32.png" alt="" class="imgtopo">
+
+        <ul>
+            <li>
+              <a href="/html/home.html">Home</a>
+            </li>
+            
+            <li class="dropdown">
+                <a href="">Equipamentos</a>
+
+                <div class="dropdown-menu">
+                    <a href="/html/equipamentos.html">Consultar</a>
+                    
+                </div>
+
+            </li>
+
+            <li class="dropdown">
+                <a href="">Veiculos</a>
+
+                <div class="dropdown-menu">
+                    <a href="/html/veiculos.html">Consultar</a>
+                </div>
+
+            </li>
+
+            <li class="dropdown">
+                <a href="">Segurança</a>
+
+                <div class="dropdown-menu">
+                    <a href="/html/seguranca.html">Consultar</a>
+                </div>
+
+            </li>
+
+            <li class="dropdown">
+                <a href="">Funcionários</a>
+
+                <div class="dropdown-menu">
+                    <a href="/html/funcionarios.html">Consultar</a>
+                </div>
+
+            </li>
+
+            <li class="dropdown">
+                <a href="/index.html">Sair</a>
+            </li>
+                
+        </ul>
+    </nav>
+
+    <main>
+
+        <div class="painelcontrole">
+            <h3>Segurança</h3>
+        </div>
+
+
+        <div class="container">
+            <div class="header">
+              <span>Cadastros de Dispositivos de Segurança</span>
+              <button onclick="openModal()" id="new">Incluir</i></button>
+            </div>
+        
+            <div class="divTable">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Modelo</th>
+                    <th>Função</th>
+                    <th>Quantidade</th>
+                    
+                    <th class="acao">Editar</th>
+                    <th class="acao">Excluir</th>
+                  </tr>
+                </thead>
+                <tbody>
+                </tbody>
+              </table>
+            </div>
+        
+            <div class="modal-container">
+              <div class="modal">
+                <form>
+                  <label for="m-modelo">Modelo</label>
+                  <input id="m-modelo" type="text" required />
+          
+                  <label for="m-funcao">Função</label>
+                  <input id="m-funcao" type="text" required />
+          
+                  <label for="m-quantidade">Quantidade</label>
+                  <input id="m-quantidade" type="number" required />
+
+                  
+                  <button id="btnSalvar">Salvar</button>
+                </form>
+              </div>
+            </div>
+        
+          </div>
+
+
+
+
+    <script src="/javascript/seguranca.js"></script>
+    </main>
+
+    <footer>
+        <div>
+            <h3>Wayne Industries</h3>
+            <p>Gotham City - USA</p>
+            <p>Since 17th Century</p>
+        </div>
+    </footer>
+</body>
+</html>
